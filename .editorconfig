@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.json]
+indent_size = 2
+
+[*.yml]
+indent_size = 2
+
+# .net rules
+
+[*.cs]
+indent_size = 4
+indent_style = tab
+dotnet_separate_import_directive_groups = true
+dotnet_sort_system_directives_first = true
